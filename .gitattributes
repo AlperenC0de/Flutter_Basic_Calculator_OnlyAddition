@@ -1,0 +1,11 @@
+# Ignore native platform code from GitHub language stats
+android/** linguist-vendored
+ios/** linguist-vendored
+macos/** linguist-vendored
+windows/** linguist-vendored
+linux/** linguist-vendored
+web/** linguist-vendored
+
+# Optionally ignore build and test folders too
+build/** linguist-vendored
+test/** linguist-vendored
